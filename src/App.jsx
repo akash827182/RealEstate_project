@@ -3,6 +3,9 @@ import Hero from "./components/Hero/Hero";
 import "./App.css";
 import Companies from "./components/companies/companies";
 import Residencies from "./components/Residencies/Residencies";
+import Contact from "./components/Contact/Contact";
+import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -13,6 +16,9 @@ function App() {
       </div>
       <Companies />
       <Residencies />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }
